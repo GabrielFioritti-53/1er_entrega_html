@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <select id ="pais" name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="uruguay">Uruguay</option>
+        <br><br>
+        <input type="radio" id="genero" name="genero" value="masculino">Masculino
+        <input type="radio" id="genero" name="genero" value="femenino">Femenino
+        <br><br>
+        <input type="submit" value="Enviar">
+</body>
+</html>
