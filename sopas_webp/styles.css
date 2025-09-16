@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page {
+    width: 21cm; /* A4 width */
+    height: 29.7cm; /* A4 height */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-block {
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0 15px 0;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.contact ul li, .skills-section ul li, .section.skills-section h3 {
+    font-size: 0.9em;
+}
+
+.job-title, .project-title {
+    font-weight: bold;
+    color: #555;
+    margin: 0;
+}
+
+.education-item {
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    margin: 0;
+}
+
+.institution {
+    font-weight: bold;
+    color: #555;
+}
+
+.degree, .dates {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.skills-section {
+    display: flex;
+    gap: 50px;
+}
+
+.skills-column {
+    flex: 1;
+}
+
+.project-item {
+    margin-bottom: 15px;
+}
