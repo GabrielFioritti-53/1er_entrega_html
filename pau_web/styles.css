@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background: linear-gradient(to bottom right, #b1a6ff, #6f93b1);
+    color: #000000;
+}
+
+nav {
+    background: #6c5ce7;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background: #f0f0f0;      
+    padding: 8px 15px;
+    border-radius: 20px;        
+    border: 1px solid #ccc;     
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: #e0e0e0;
+    transform: scale(1.05);  
+}
+
+header {
+    text-align: center;
+    background: #6c5ce7;
+    padding: 20px;
+}
+
+.section {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.highlight {
+    border-left: 6px solid #6c5ce7;
+    background: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+/* tamaño de las imagenes de la tabla */
+.logo {
+    width: 35px;       
+    height: auto;
+    margin-left: 8px; 
+    vertical-align: middle;
+}
+
+aside {
+    background: #f9f9f9;
+    margin: 20px;
+    padding: 15px;
+    border-left: 5px solid #6c5ce7;
+    border-radius: 8px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #0099cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0077aa;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
